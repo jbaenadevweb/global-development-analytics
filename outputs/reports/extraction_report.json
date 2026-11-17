@@ -1,0 +1,113 @@
+{
+  "extracted_at_utc": "2026-11-17T03:02:29.837409+00:00",
+  "sources_ok": 5,
+  "sources_failed": 0,
+  "records_by_source": {
+    "life_expectancy": 210,
+    "gdp_per_capita_ppp": 197,
+    "population": 237,
+    "fertility_rate": 248,
+    "land_area": 265
+  },
+  "reports": [
+    {
+      "source": "life_expectancy",
+      "url": "https://en.wikipedia.org/wiki/List_of_countries_by_life_expectancy",
+      "html_table_count": 12,
+      "pandas_table_count": 12,
+      "selected_table_index": 1,
+      "selected_columns": {
+        "country": "Locations Locations",
+        "value": "Life expectancy overall at birth"
+      },
+      "records": 210,
+      "duplicates_removed": 1,
+      "reference_year": 2023,
+      "year_source": "selected column/section",
+      "observed_year_counts": {
+        "2023": 210
+      },
+      "statistic_source_column": null,
+      "rows_with_table_citations": 0
+    },
+    {
+      "source": "gdp_per_capita_ppp",
+      "url": "https://en.wikipedia.org/wiki/List_of_countries_by_past_and_projected_GDP_(PPP)_per_capita",
+      "html_table_count": 7,
+      "pandas_table_count": 7,
+      "selected_table_index": 4,
+      "selected_columns": {
+        "country": "Country / territory",
+        "value": "2023"
+      },
+      "records": 197,
+      "duplicates_removed": 0,
+      "reference_year": 2023,
+      "year_source": "selected column/section",
+      "observed_year_counts": {
+        "2023": 197
+      },
+      "statistic_source_column": null,
+      "rows_with_table_citations": 0
+    },
+    {
+      "source": "population",
+      "url": "https://en.wikipedia.org/wiki/List_of_countries_by_population_(United_Nations)",
+      "html_table_count": 2,
+      "pandas_table_count": 2,
+      "selected_table_index": 0,
+      "selected_columns": {
+        "country": "Country or territory",
+        "value": "Population (1 July 2023)"
+      },
+      "records": 237,
+      "duplicates_removed": 2,
+      "reference_year": 2023,
+      "year_source": "selected column/section",
+      "observed_year_counts": {
+        "2023": 237
+      },
+      "statistic_source_column": null,
+      "rows_with_table_citations": 19
+    },
+    {
+      "source": "fertility_rate",
+      "url": "https://en.wikipedia.org/wiki/List_of_countries_by_fertility_rate",
+      "html_table_count": 17,
+      "pandas_table_count": 17,
+      "selected_table_index": 8,
+      "selected_columns": {
+        "country": "Country",
+        "value": "Fertility rate in 2023 (births/woman)"
+      },
+      "records": 248,
+      "duplicates_removed": 40,
+      "reference_year": 2023,
+      "year_source": "selected column/section",
+      "observed_year_counts": {
+        "2023": 248
+      },
+      "statistic_source_column": null,
+      "rows_with_table_citations": 0
+    },
+    {
+      "source": "land_area",
+      "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
+      "html_table_count": 4,
+      "pandas_table_count": 4,
+      "selected_table_index": 1,
+      "selected_columns": {
+        "country": "Country / dependency",
+        "value": "Land in km2 (mi2)"
+      },
+      "records": 265,
+      "duplicates_removed": 12,
+      "reference_year": null,
+      "year_source": "not declared",
+      "observed_year_counts": {},
+      "statistic_source_column": null,
+      "rows_with_table_citations": 109
+    }
+  ],
+  "errors": []
+}
